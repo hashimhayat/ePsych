@@ -1,0 +1,39 @@
+
+#gd {
+    display : none;
+    position: fixed;
+  }
+  
+  span {
+    cursor: pointer;
+    position: fixed;
+    width: 80px;
+    height: 30px;
+    /* -240 is the radius */
+    -ms-transform-origin: -240px 50%;
+    -webkit-transform-origin: -240px 50%;
+    -moz-transform-origin: -240px 50%;
+    -o-transform-origin: -240px 50%;
+    transform-origin: -240px 50%;     
+    opacity: 0.2;
+  }
+  
+  span:hover, span:active {
+    opacity: 1;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+  }
+  
+  #instructions {
+    display: inline-block;
+    position: fixed;
+    text-align: center;
+    background: white;
+    width: 100%;
+  }
+  
+  #instructions p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    padding: 10px;
+  }

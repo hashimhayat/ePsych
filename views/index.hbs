@@ -1,0 +1,197 @@
+
+<script> document.getElementById("backbtn").style.visibility = "hidden"; </script>
+
+<div class="console">
+
+    <!-- Search and Query Bar -->
+    <form>
+        <input id="search" class="search-bar" type="text" name="search" placeholder="Search">
+        <!-- <button id="anaytics-btn" type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#analytics-bar"> Analytics </button> -->
+    </form>
+
+    <!-- Database Image Container -->
+    <br><br><br>
+
+    <h3 class="module-label"> </h3> 
+    <div id="swipe-container" class="image-container">
+
+    	<a href="/experiments/BettingGameBlobs/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>1</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>Betting Game</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Blobs</p></div>
+				</div> 
+				<a href="/experiments/BettingGameBlobs/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/BettingGameTriangles/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>2</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>Betting Game</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Triangles</p></div>
+				</div> 
+				<a href="/experiments/BettingGameTriangles/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/BettingGameSquares/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>3</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>Betting Game</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Squares</p></div>
+				</div> 
+				<a href="/experiments/BettingGameSquares/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/Gabors/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>4</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>Gabors</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 1.0</p></div>
+				</div> 
+				<a href="/experiments/Gabors/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/Gabors/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>5</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>Gabors</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 2.0</p></div>
+				</div> 
+				<a href="/experiments/Gabors/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/RFPattern/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>6</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>RF Patterns</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 1.0</p></div>
+				</div> 
+				<a href="/experiments/RFPattern/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/RFPattern/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>7</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>RF Patterns</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 2.0</p></div>
+				</div> 
+				<a href="/experiments/RFPattern/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>	
+
+		<a href="/experiments/BART/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>8</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>BART</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 1.0</p></div>
+				</div> 
+				<a href="/experiments/BART/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/BART/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>9</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>BART</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 2.0</p></div>
+				</div> 
+				<a href="/experiments/BART/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+    </div>
+
+</div>
+
+<div id="snackbar">Some text some message..</div>
+
+<!-- Side Panel to Create new Images -->
+<img id="menu-btn" src="/images/menu.png">
+<div id="create-panel" class="sidenav">
+
+    <div class="menu-bar">
+        <!--<h1> Modules </h1>-->
+
+        <a href="/swiping">
+            <div class="app-module grad">
+                <p> New </p>
+            </div>
+        </a>
+
+        <a href="/fms">
+            <div class="app-module grad">
+                <p> Database </p>
+            </div>
+        </a>
+
+        <a href="/landmarks">
+            <div class="app-module grad">
+                <p> API Reference </p>
+            </div>
+        </a>
+
+        <a href="/cases">
+            <div class="app-module grad">
+                <p> Settings </p>
+            </div>
+        </a>
+        <br><br><br><br>
+    </div>
+</div>
+
+
+<div id="form-section" class="sidenav">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="hideDetailsForm()">&times;</a>
+    <br>
+
+    <div class="card">
+        <div class="card-header"> <b> Basic Information </b> </div>
+        <div class="card-block"><blockquote class="card-blockquote"><p id="basic-info"></p></blockquote></div>
+    </div>
+    <div class="card">
+        <div class="card-header"> <b> Modified </b> </div>
+        <div class="card-block"><blockquote class="card-blockquote"><p id="modified"></p></blockquote></div>
+    </div>
+    <div class="card">
+        <div id="type" class="card-header"> <b> Type </b> </div>
+        <div class="card-block"><blockquote class="card-blockquote"><p id="landmarks"></p></blockquote></div>
+    </div>
+    <div class="card">
+        <div class="card-header"> <b> Status </b> </div>
+        <div class="card-block"><blockquote class="card-blockquote"><p id="state"></p></blockquote></div>
+    </div>
+    <div class="card">
+        <div class="card-header"> <b> Analytics </b> </div>
+        <div class="card-block"><blockquote class="card-blockquote"><p id="analytics"></p></blockquote></div>
+    </div>
+
+    <br>
+
+    <div style="text-align: center">
+        <button id="edit" type="button" class="btn btn-success" style="cursor: pointer; width: 100px;" onclick="openEditMode(this)">Edit</button>
+        <button id="publish" type="button" class="btn btn-primary" style="cursor: pointer; width: 100px;" onclick="updateStatus()">Publish</button>
+        <button id="publish" type="button" class="btn btn-danger" style="cursor: pointer; width: 100px;" onclick="deleteImage()">Delete</button>
+
+    </div>
+
+</div>
+
+<script src="/javascripts/datacenter.js"></script>
+
+
