@@ -1,5 +1,5 @@
 body {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 50px;
     padding-right: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -8,6 +8,14 @@ body {
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
+}
+
+.headline {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 40px;
+	font-weight: bold;
 }
 
 .display-picture {
