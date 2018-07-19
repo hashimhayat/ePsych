@@ -26,10 +26,12 @@
 
 
     <!-- Search and Query Bar -->
-<!--     <form>
-        <input id="search" class="search-bar" type="text" name="search" placeholder="Search">
-        <button id="anaytics-btn" type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#analytics-bar"> Analytics </button>
-    </form> -->
+    <div style="display: none">
+	    <form>
+	        <input id="search" class="search-bar" type="text" name="search" placeholder="Search">
+	        <button id="anaytics-btn" type="button" class="btn btn-danger btn-lg" data-toggle="collapse" data-target="#analytics-bar"> Analytics </button>
+	    </form>
+	</div>
 
     <!-- Database Image Container -->
     <br>
@@ -135,6 +137,28 @@
 					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 2.0</p></div>
 				</div> 
 				<a href="/experiments/BART/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/Boxes/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>10</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>Boxes</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 1.0</p></div>
+				</div> 
+				<a href="/experiments/Boxes/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
+			</div>
+		</a>
+
+		<a href="/experiments/Boxes/" target="_blank">
+			<div class="gallery" id="${childKey}">
+				<div class="serial"> <div class=serial-holder> <p>11</p> </div></div>
+				<div class="image-modules"> 
+					<div id="Practice" name="${_module}-${childKey}" class="category-modes" onclick="toogleCategory('${_module}', '${childKey}', this.id)"><p>Boxes</p></div>
+					<div id="${module}" class="image-modes" style="width: 78px;" onclick="openEditMode(this.id, ${childKey})"><p>Version 2.0</p></div>
+				</div> 
+				<a href="/experiments/Boxes/" target="_blank"><img src="/images/exp.png" width="300" height="200"></a>
 			</div>
 		</a>
 
